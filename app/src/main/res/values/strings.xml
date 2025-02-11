@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PokeApi</string>
+    <string name="Buscar">Buscar</string>
+    <string name="IngresarNombre">Ingrese el nombre del Pokemon</string>
+    <string name="PokemonName">Pokemon Name</string>
+    <string name="TypePokemon">Type</string>
+    <string name="PokemonNumber">#000</string>
+    <string name="ShowPokemon">Mira los pokemon que has capturado.</string>
+    <string name="WelcomeApp">Bienvenido a tu Pokedex personal\n</string>
+</resources>

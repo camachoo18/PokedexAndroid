@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:gravity="center_vertical">
+
+        <!-- Imagen del Pokémon -->
+        <ImageView
+            android:id="@+id/pokemonImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="fitCenter" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingStart="12dp">
+
+            <!-- Número del Pokémon -->
+            <TextView
+                android:id="@+id/pokemonNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nº 001"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+
+            <!-- Nombre del Pokémon -->
+            <TextView
+                android:id="@+id/pokemonName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bulbasaur"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+
+            <!-- Tipo del Pokémon -->
+            <TextView
+                android:id="@+id/pokemonType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tipo: Planta/Veneno"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray"/>
+        </LinearLayout>
+
+        <!-- Botón para reproducir sonido -->
+        <Button
+            android:id="@+id/soundButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play Sound" />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
